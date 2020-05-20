@@ -1,411 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Child add mixin here-->
-<html xmlns="http://www.w3.org/1999/xhtml" lang="vi">
+<!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Identity by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-<head>
-    <script type="text/javascript" async="" src="//static.criteo.net/js/ld/publishertag.prebid.js"></script>
-    <title>Tenchi wo Kurau II - Shokatsu Koumei Den (NES) - Online Game | OldGameShelf.com</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" /><!-- Propellerads.com-->
-    <meta name="propeller" content="9004bb6a85fdae9bf6243baa728b3f1f" />
-    <link rel="icon" href="/favicon.ico?v=2" type="image/x-icon" /><!-- Add to home screen for Safari on iOS-->
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="OldGameShelf" />
-    <link rel="apple-touch-icon" href="img/icons/Icon-152.png" />
-    <meta name="msapplication-TileImage" content="/img/icons/Icon-144.png" />
-    <meta name="msapplication-TileColor" content="#2F3BA2" />
-    <script type="text/javascript" async="" src="analytics.js"></script>
-    <script src="en_US/sdk.js" async="" type="text/javascript"></script>
-    <script id="facebook-jssdk" src="en_US/sdk.js" type="text/javascript"></script>
-    <script async="" src="gtm.js" type="text/javascript"></script>
-    <script type="text/javascript" src="indexa.js">
-    </script>
-    <style type="text/css">
-    #root &gt;
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-    .loader-wrapper {
-        min-height: 100vh
-    }
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+							<h1>Jane Doe</h1>
+							<p>Senior Psychonautics Engineer</p>
+						</header>
+						<!--
+						<hr />
+						<h2>Extra Stuff!</h2>
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field">
+									<input type="text" name="name" id="name" placeholder="Name" />
+								</div>
+								<div class="field">
+									<input type="email" name="email" id="email" placeholder="Email" />
+								</div>
+								<div class="field">
+									<select name="department" id="department">
+										<option value="">Department</option>
+										<option value="sales">Sales</option>
+										<option value="tech">Tech Support</option>
+										<option value="null">/dev/null</option>
+									</select>
+								</div>
+								<div class="field">
+									<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+								</div>
+								<div class="field">
+									<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+								</div>
+								<div class="field">
+									<label>But are you a robot?</label>
+									<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
+									<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
+								</div>
+							</div>
+							<ul class="actions special">
+								<li><a href="#" class="button">Get Started</a></li>
+							</ul>
+						</form>
+						<hr />
+						-->
+						<footer>
+							<ul class="icons">
+								<li><a href="#" class="icon brands fa-twitter">Twitter</a></li>
+								<li><a href="#" class="icon brands fa-instagram">Instagram</a></li>
+								<li><a href="#" class="icon brands fa-facebook-f">Facebook</a></li>
+							</ul>
+						</footer>
+					</section>
 
-    .loader-wrapper {
-        position: relative;
-        min-height: 200px;
-        display: block
-    }
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; Jane Doe</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
 
-    .loader-wrapper:after {
-        content: " ";
-        z-index: 10;
-        border: none;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background-color: #222930;
-        opacity: .7;
-        cursor: wait;
-        position: absolute
-    }
+			</div>
 
-    .loader-wrapper .wait-element {
-        z-index: 11;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%)
-    }
+		<!-- Scripts -->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
 
-    @keyframes spin {
-        0% {
-            -webkit-transform: rotate(0deg);
-            transform: rotate(0deg)
-        }
-
-        to {
-            -webkit-transform: rotate(1turn);
-            transform: rotate(1turn)
-        }
-    }
-
-    .loader {
-        border: 5px solid #f3f3f3;
-        border-top: 5px solid #00d2ff;
-        border-radius: 50%;
-        width: 3.5em;
-        height: 3.5em;
-        -webkit-animation: spin .9s linear infinite;
-        animation: spin .9s linear infinite
-    }
-    </style>
-
-    <link rel="preload" as="script" href="/0.main.js?v=1550115339041" />
-    <link rel="preload" as="script" href="/1.main.js?v=1550115339041" />
-    <link rel="preload" as="script" href="/2.main.js?v=1550115339041" />
-    <link rel="preload" as="script" href="/3.main.js?v=1550115339041" />
-    <link rel="preload" as="script" href="/4.main.js?v=1550115339041" />
-    <link rel="preload" as="script" href="/5.main.js?v=1550115339041" />
-    <link rel="preload" as="script" href="/6.main.js?v=1550115339041" />
-    <link rel="preload" as="script" href="/7.main.js?v=1550115339041" />
-    <link rel="preload" as="script" href="/8.main.js?v=1550115339041" />
-    <link href="/css/style.css?v=f8b0" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" charset="utf-8" async="" src="/0.main.js?v=1550115339041"></script>
-    <script type="text/javascript" charset="utf-8" async="" src="/3.main.js?v=1550115339041"></script>
-    <script type="text/javascript" charset="UTF-8" src="js/1648.006-2.047.ab.1648.007-2.048/ice.js" async=""></script>
-    <link rel="apple-touch-icon" href="img/icons/Icon-152.png" data-react-helmet="true" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" data-react-helmet="true" />
-    <meta charset="utf-8" data-react-helmet="true" />
-    <meta name="dc.language" content="EN/US" data-react-helmet="true" />
-    <meta name="dc.source" content="https://oldgameshelf.com" data-react-helmet="true" />
-    <meta name="dc.creator" content="Old Game Shelf" data-react-helmet="true" />
-    <meta name="distribution" content="Global" data-react-helmet="true" />
-    <meta name="revisit-after" content="1 days" data-react-helmet="true" />
-    <meta name="apple-mobile-web-app-capable" content="yes" data-react-helmet="true" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" data-react-helmet="true" />
-    <meta name="apple-mobile-web-app-title" content="OldGameShelf" data-react-helmet="true" />
-    <meta name="msapplication-TileImage" content="/img/icons/Icon-144.png" data-react-helmet="true" />
-    <meta name="msapplication-TileColor" content="#2F3BA2" data-react-helmet="true" />
-    <meta property="og:image:height" content="630" data-react-helmet="true" />
-    <meta property="og:image:width" content="1200" data-react-helmet="true" />
-    <meta property="og:type" content="game" data-react-helmet="true" />
-    <style type="text/css">
-    @keyframes rotateSpinner {
-        0% {
-            transform: rotate(0deg)
-        }
-
-        100% {
-            transform: rotate(360deg)
-        }
-    }
-    </style>
-</head>
-
-<body>
-    <!-- <script type="text/javascript" src="dt/common/postscribe.js"></script> -->
-    <script type="text/javascript" charset="utf-8" async="" src="/2.main.js?v=1550115339041"></script>
-    <script type="text/javascript" charset="utf-8" async="" src="/4.main.js?v=1550115339041"></script><!-- Google Tag Manager (noscript)-->
-    <!-- End Google Tag Manager (noscript)-->
-    <!-- infolink ads-->
-    <script type="text/javascript">
-    var infolinks_pid = 3118273;
-    var infolinks_wsid = 0;
-    </script>
-    <script type="text/javascript" async="" src="js/infolinks_main.js"></script><!-- end infolink-->
-    <div id="root" data-iceapc="296" data-iceapw="202">
-        <script type="application/ld+json">
-        { "@context": "http://schema.org", "@id": "https://search.google.com/structured-data/testing-tool/#website", "@type": "WebSite", "name": "Old Game Shelf: Fastest website to play retro games like NES, SNES, GBA", "url": "https://oldgameshelf.com" }
-        </script>
-        <script type="application/ld+json">
-        { "@context": "http://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "item": { "@id": "https://oldgameshelf.com", "name": "Home page" } }, { "@type": "ListItem", "position": 2, "item": { "@id": "https://oldgameshelf.com/nes", "name": "Nintendo" } }, { "@type": "ListItem", "position": 3, "item": { "@id": "https://oldgameshelf.com/tenchi-wo-kurau-ii-shokatsu-koumei-den-1058.html", "name": "Tenchi wo Kurau II - Shokatsu Koumei Den - online NES" } }] }
-        </script>
-        <div class="app-root" data-iceapc="295" data-iceapw="202">
-            <div class="container" data-iceapc="12">
-                <div class="inner" data-iceapc="11"><a title="Go to Home" class="navbar-brand" href=""><img class="logo-image" src="img/logo.png" alt="Logo of oldgameself.com" /></a>
-                    <div class="collapse navbar-collapse" data-iceapc="9">
-                        <ul class="navbar-nav mr-auto" data-iceapc="3">
-                            <li class="nav-item active"><a class="nav-link" href="/nes">Nintendo</a></li>
-                            <li class="nav-item active"><a class="nav-link" href="/search">Search</a></li>
-                            <li class="nav-item active"><a class="nav-link" href="/about">About</a></li>
-                        </ul>
-                        <div class="form-inline my-2 my-lg-0 header-search-form" data-iceapc="4">
-                            <div class="search-box" data-iceapc="3">
-                                <div class="inner" data-iceapc="2">
-                                    <form data-iceapc="1"><span class="search-box__input mr-sm-2"><input class="form-control" type="search" placeholder="Search" aria-label="Search" value="tenchi" /></span><button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button></form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-            <div class="app-wrapper" data-iceapw="193" data-iceapc="273">
-                <div class="game-page">
-                    <script type="application/ld+json">
-                    { "@context": "http://schema.org", "@type": "CreativeWork", "name": "Tenchi wo Kurau II - Shokatsu Koumei Den NES", "description": "Tenchi wo Kurau II - Shokatsu Koumei Den is an online game of Nintendo. ✔ Play Tenchi wo Kurau II - Shokatsu Koumei Den nes on mobile with ✔ CRT effect ✔ Save state ✔ Load state for real retro game feeling. This \"Tenchi wo Kurau II - Shokatsu Koumei Den nes\" is in NES games list.", "image": "https://oldgameshelf.com", "aggregateRating": { "@type": "AggregateRating", "ratingValue": 4.5, "ratingCount": 1, "worstRating": 1, "bestRating": 5 } }
-                    </script>
-                    <div class="container">
-                        <div class="py-5 admin-required"><button type="button" class="mr-3 btn btn-outline-light">Edit game</button><button type="button" class="btn btn-outline-light">New game</button></div>
-                        <div class="clearfix"></div>
-                        <div class="row">
-                            <div class="col-lg-7">
-                                <div class="bg-dark p-4 game-section">
-                                    <h1 class="game-title">Play Tenchi wo Kurau II - Shokatsu Koumei Den online - Nintendo NES
-                                    </h1>
-                                    <div class="floatable-container">
-                                        <div class="player-container over-x">
-                                            <div class="embed-responsive">
-                                                <div class="embed-responsive-item">
-                                                    <div class="game-player">
-                                                        <div class="btn-close-full btn btn-outline-light">Exit
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="btn-group btn-group-sm player-settings d-flex justify-content-center my-2 over-x"><button class="btn col btn-outline-light">CRT effect</button><button class="btn col btn-outline-light">Save game</button><button class="btn col btn-outline-light">Load game</button><button class="btn col btn-outline-light hidden-sm-down">Full screen</button><button class="btn col btn-outline-light hidden-md-up">Landscape Mode</button><button class="btn col btn-outline-light hidden-sm-down">Screenshot</button></div>
-                                    <div class="over-x">
-                                        <div class="mobile-gamepad bg-dark">
-                                            <div class="joystick-zone">
-                                                <div class="nipple collection_4" id="nipple_4_4" style="position: absolute; opacity: 0.5; display: block; z-index: 999; transition: opacity 250ms; bottom: 95px; left: 95px;">
-                                                    <div class="back" style="position: absolute; display: block; width: 160px; height: 160px; margin-left: -80px; margin-top: -80px; background-color: rgb(248, 249, 250); opacity: 0.5; border-top-left-radius: 50%; border-top-right-radius: 50%; border-bottom-right-radius: 50%; border-bottom-left-radius: 50%; background-position: initial initial; background-repeat: initial initial;"></div>
-                                                    <div class="front" style="width: 80px; height: 80px; position: absolute; display: block; margin-left: -40px; margin-top: -40px; background-color: rgb(248, 249, 250); opacity: 0.5; border-top-left-radius: 50%; border-top-right-radius: 50%; border-bottom-right-radius: 50%; border-bottom-left-radius: 50%; background-position: initial initial; background-repeat: initial initial;"></div>
-                                                </div>
-                                            </div>
-                                            <div class="buttons-zone">
-                                                <div class="ba-button"><span data-button="1" class="btn btn-light circle-btn btn-b">B</span><span data-button="0" class="btn btn-light circle-btn btn-a">A</span></div>
-                                                <div class="start-buttons"><span data-button="2" class="btn btn-light">Select</span><span data-button="3" class="btn btn-light">Start</span></div>
-                                            </div>
-                                            <div class="clearfix"></div>
-                                        </div>
-                                    </div>
-                                    <div class="rate-and-share">
-                                        <p class="info-head text-uppercase mt-4 my-4">Rate and share
-                                        </p>
-                                        <div class="row justify-content-between align-items-center">
-                                            <div class="col">
-                                                <div class="react-rater">
-                                                    <div>
-                                                        <div class="react-rater-star is-active">★
-                                                        </div>
-                                                    </div>
-                                                    <div>
-                                                        <div class="react-rater-star is-active">★
-                                                        </div>
-                                                    </div>
-                                                    <div>
-                                                        <div class="react-rater-star is-active">★
-                                                        </div>
-                                                    </div>
-                                                    <div>
-                                                        <div class="react-rater-star is-active">★
-                                                        </div>
-                                                    </div>
-                                                    <div>
-                                                        <div class="react-rater-star is-active-half">★
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col text-right">
-                                                <div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--facebook">
-                                                    <div style="width: 40px; height: 40px;"></div>
-                                                </div>
-                                                <div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--twitter">
-                                                    <div style="width: 40px; height: 40px;"></div>
-                                                </div>
-                                                <div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--googlePlus">
-                                                    <div style="width: 40px; height: 40px;"></div>
-                                                </div>
-                                                <div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--pinterest">
-                                                    <div style="width: 40px; height: 40px;"></div>
-                                                </div>
-                                                <div role="button" tabindex="0" class="SocialMediaShareButton SocialMediaShareButton--linkedin">
-                                                    <div style="width: 40px; height: 40px;"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="game-info">
-                                        <p class="info-head text-uppercase mt-4 mb-3">Game info
-                                        </p>
-                                        <h2>Tenchi wo Kurau II - Shokatsu Koumei Den is an online retro game of Nintendo/NES system, which came active for playing online at oldgameshelf.com from 03/02/2019. Until now, this browser version of Tenchi wo Kurau II - Shokatsu Koumei Den has been archived as a museum artwork and rated 4.5 out of 5 mark, 1 number taken in rating this. The game is kind of action, adventure, shooting, rgp. You can also play Tenchi wo Kurau II - Shokatsu Koumei Den nes on mobile.
-                                        </h2>
-                                    </div>
-                                    <div class="game-keywords">
-                                        <p class="info-head text-uppercase mt-4 mb-3">Game keywords
-                                        </p><a title="Search for Tenchi wo Kurau II - Shokatsu Koumei Den nes" href="https://www.google.com/search?q=Tenchi%20wo%20Kurau%20II%20-%20Shokatsu%20Koumei%20Den%20nes%2C%20Tenchi%20wo%20Kurau%20II%20-%20Shokatsu%20Koumei%20Den%20online%2C%20Tenchi%20wo%20Kurau%20II%20-%20Shokatsu%20Koumei%20Den%20html5%2C%20" target="_blank">Tenchi wo Kurau II - Shokatsu Koumei Den nes, Tenchi wo Kurau II - Shokatsu Koumei Den online, Tenchi wo Kurau II - Shokatsu Koumei Den html5,</a>
-                                    </div>
-                                    <div class="game-info">
-                                        <p class="info-head text-uppercase mt-4 mb-3"><a class="text-underline" href="https://snesnow.com" rel="follow" title="Snesn games online">Related SNES games</a></p><a class="text-underline" href="https://snesnow.com/play/contra-iii-the-alien-wars-239.html" rel="follow" title="Contra III - The Alien Wars - SNES">Contra III - The Alien Wars - SNES</a><br /><a class="text-underline" href="https://snesnow.com/play/mega-man-x-881.html" rel="follow" title="Mega Man X - SNES">Mega Man X - SNES</a>
-                                    </div>
-                                </div>
-                                <div class="my-5 hidden-md-up">
-                                    <div class="fb-page fb_iframe_widget" data-width="0" data-href="https://www.facebook.com/theoldgameshelf/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" style="width: 100%;" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=329890137489050&amp;container_width=0&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Ftheoldgameshelf%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;width=0"><span style="vertical-align: bottom; width: 180px; height: 197px;"><iframe name="f1b6f818c6b98da" width="0px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:page Facebook Social Plugin" src="https://www.facebook.com/v2.11/plugins/page.php?adapt_container_width=true&amp;app_id=329890137489050&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FMmH55ZI0Z2G.js%3Fversion%3D44%23cb%3Dfba561581d4586%26domain%3Doldgameshelf.com%26origin%3Dhttps%253A%252F%252Foldgameshelf.com%252Ff328364b73d79f4%26relation%3Dparent.parent&amp;container_width=0&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Ftheoldgameshelf%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;width=0" class="" style="border: none; visibility: visible; width: 180px; height: 197px;"></iframe></span></div>
-                                </div>
-                                <div class="comment-zone">
-                                    <div class="loader-wrapper hide">
-                                        <div class="wait-element">
-                                            <div class="loader"></div>
-                                        </div>
-                                        <div class="title mt-5 mb-3 text-uppercase">Comments (0)
-                                        </div>
-                                        <form class="comment-box">
-                                            <div class="row">
-                                                <div class="col-md-6 my-3"><input required="" type="text" placeholder="Your name" class="form-control" name="authorName" /></div>
-                                                <div class="col-md-6 mt-md-3 mb-3"><input required="" type="email" placeholder="Your email" class="form-control" name="authorEmail" /></div>
-                                            </div>
-                                            <div class="cmt-input">
-                                                <div class="comment__btn"><button type="submit" class="btn btn-primary">Send</button></div><textarea required="" title="comment box" name="content" placeholder="Type your comment...."></textarea>
-                                            </div>
-                                        </form>
-                                        <div class="comment-list"></div>
-                                    </div>
-                                </div>
-                                <div class="my-4">
-                                    <div class="widget-title text-uppercase text-center mb-5">You may like
-                                    </div>
-                                    <div class="list-games hide-list-type">
-                                        <div class="btn-group my-3 float-right list-style-btn" role="group"></div>
-                                        <div class="clearfix"></div>
-                                        <div class="row">
-                                            <div class="col-lg-3 col-4 col-sm-4 col-md-3">
-                                                <div class="media-card"><a title="Tekken 3 (NES) online game" class="media__thumbnail embed-responsive" href="/tekken-3-1057.html"></a>
-                                                    <div class="lazyload-placeholder" style="height: 0px;"></div>
-                                                    <div class="media__block"><span class="media__name">Tekken 3</span></div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-4 col-sm-4 col-md-3">
-                                                <div class="media-card"><a title="Terminator (NES) online game" class="media__thumbnail embed-responsive" href="/terminator-1059.html"></a>
-                                                    <div class="lazyload-placeholder" style="height: 0px;"></div>
-                                                    <div class="media__block"><span class="media__name">Terminator</span></div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-4 col-sm-4 col-md-3">
-                                                <div class="media-card"><a title="Tekken 2 (NES) online game" class="media__thumbnail embed-responsive" href="/tekken-2-1056.html"></a>
-                                                    <div class="lazyload-placeholder" style="height: 0px;"></div>
-                                                    <div class="media__block"><span class="media__name">Tekken 2</span></div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-4 col-sm-4 col-md-3">
-                                                <div class="media-card"><a title="Terminator 2 (NES) online game" class="media__thumbnail embed-responsive" href="/terminator-2-1060.html"></a>
-                                                    <div class="lazyload-placeholder" style="height: 0px;"></div>
-                                                    <div class="media__block"><span class="media__name">Terminator 2</span></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 side-col">
-                                <div class="text-center my-2"><input type="hidden" name="IL_IN_ARTICLE" /></div>
-                                <div class="bg-dark p-3">
-                                    <div class="widget-title text-center mb-5">Top played
-                                    </div>
-                                    <div>
-                                        <div class="list-games hide-list-type is--image-only">
-                                            <div class="btn-group my-3 float-right list-style-btn" role="group"></div>
-                                            <div class="clearfix"></div>
-                                            <div class="row">
-                                                <div class="col-lg-3 col-4 col-sm-4 col-md-3">
-                                                    <div class="media-card"><a title="Super Mario Bros (NES) online game" class="media__thumbnail embed-responsive" href="/super-mario-bros-1217.html"><img class="embed-responsive-item fadeIn" src="roms/nes/super-mario-bros/images/1.png" alt="Thumbnail image of game Super Mario Bros" /></a>
-                                                        <div class="media__block"><span class="media__name">Super Mario Bros</span></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-4 col-sm-4 col-md-3">
-                                                    <div class="media-card"><a title="Super Mario Bros 3 (NES) online game" class="media__thumbnail embed-responsive" href="/super-mario-bros-3-1221.html"><img class="embed-responsive-item fadeIn" src="roms/nes/super-mario-bros-3/images/super-mario-bros-3-3.png" alt="Thumbnail image of game Super Mario Bros 3" /></a>
-                                                        <div class="media__block"><span class="media__name">Super Mario Bros 3</span></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-4 col-sm-4 col-md-3">
-                                                    <div class="media-card"><a title="Contra (NES) online game" class="media__thumbnail embed-responsive" href="/contra-208.html"><img class="embed-responsive-item fadeIn" src="roms/nes/contra/images/nes_contra_1.jpg" alt="Thumbnail image of game Contra" /></a>
-                                                        <div class="media__block"><span class="media__name">Contra</span></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-4 col-sm-4 col-md-3">
-                                                    <div class="media-card"><a title="Donkey Kong Classics (NES) online game" class="media__thumbnail embed-responsive" href="/donkey-kong-classics-1224.html"><img class="embed-responsive-item fadeIn" src="roms/nes/donkey-kong/donkey-kong-classics-play-2.png" alt="Thumbnail image of game Donkey Kong Classics" /></a>
-                                                        <div class="media__block"><span class="media__name">Donkey Kong Classics</span></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-4 col-sm-4 col-md-3">
-                                                    <div class="media-card"><a title="Pac-Man (NES) online game" class="media__thumbnail embed-responsive" href="/pac-man-750.html"><img class="embed-responsive-item fadeIn" src="roms/nes/pac-man/images/pac-man-avatar.png" alt="Thumbnail image of game Pac-Man" /></a>
-                                                        <div class="media__block"><span class="media__name">Pac-Man</span></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-4 col-sm-4 col-md-3">
-                                                    <div class="media-card"><a title="Flappy Bird (NES) online game" class="media__thumbnail embed-responsive" href="/flappy-bird-1218.html"><img class="embed-responsive-item fadeIn" src="roms/nes/flappy-bird/images/flappy-bird.png" alt="Thumbnail image of game Flappy Bird" /></a>
-                                                        <div class="media__block"><span class="media__name">Flappy Bird</span></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-4 col-sm-4 col-md-3">
-                                                    <div class="media-card"><a title="Battle City (NES) online game" class="media__thumbnail embed-responsive" href="/battle-city-98.html"><img class="embed-responsive-item fadeIn" src="roms/nes/battle-city/images/nes_battle_city_1.jpg" alt="Thumbnail image of game Battle City" /></a>
-                                                        <div class="media__block"><span class="media__name">Battle City</span></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-4 col-sm-4 col-md-3">
-                                                    <div class="media-card"><a title="Road Fighter (NES) online game" class="media__thumbnail embed-responsive" href="/road-fighter-840.html"><img class="embed-responsive-item fadeIn" src="roms/nes/road-fighter/images/road-fighter-nes.jpg" alt="Thumbnail image of game Road Fighter" /></a>
-                                                        <div class="media__block"><span class="media__name">Road Fighter</span></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-4 col-sm-4 col-md-3">
-                                                    <div class="media-card"><a title="Circus Charlie (NES) online game" class="media__thumbnail embed-responsive" href="/circus-charlie-190.html"><img class="embed-responsive-item fadeIn" src="roms/nes/circus-charlie/images/nes_circus_charlie_1.jpg" alt="Thumbnail image of game Circus Charlie" /></a>
-                                                        <div class="media__block"><span class="media__name">Circus Charlie</span></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-4 col-sm-4 col-md-3">
-                                                    <div class="media-card"><a title="Adventure Island Jap (NES) online game" class="media__thumbnail embed-responsive" href="/adventure-island-jap-25.html"><img class="embed-responsive-item fadeIn" src="roms/images/advisland-5.jpg" alt="Thumbnail image of game Adventure Island Jap" /></a>
-                                                        <div class="media__block"><span class="media__name">Adventure Island Jap</span></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-4 col-sm-4 col-md-3">
-                                                    <div class="media-card"><a title="Excitebike (NES) online game" class="media__thumbnail embed-responsive" href="/excitebike-1223.html"><img class="embed-responsive-item fadeIn" src="roms/nes/excitebike/images/excitebike.png" alt="Thumbnail image of game Excitebike" /></a>
-                                                        <div class="media__block"><span class="media__name">Excitebike</span></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-4 col-sm-4 col-md-3">
-                                                    <div class="media-card"><a title="Bomberman II (NES) online game" class="media__thumbnail embed-responsive" href="/bomberman-ii-141.html"><img class="embed-responsive-item fadeIn" src="roms/nes/bomberman-ii/images/bom2.png" alt="Thumbnail image of game Bomberman II" /></a>
-                                                        <div class="media__block"><span class="media__name">Bomberman II</span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="portal"></div>
-    <script type="text/javascript" src="/vendor.js?v=1550115512498"></script>
-    <script type="text/javascript" src="/main.js?v=1550115512498"></script>
-    <!-- <script type="text/javascript" src="dt/common/DAC.js"></script> -->
-</body>
-
+	</body>
 </html>
